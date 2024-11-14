@@ -1,0 +1,79 @@
+<div
+  class="h-full md:shadow max-w-[600px] mx-auto sm:p-8 p-4 flex flex-col justify-between"
+>
+  <!-- Top content -->
+  <div>
+    <div class="flex justify-between">
+      <div></div>
+      <p class="sm:text-headline text-md-headline font-medium">My devices</p>
+      <button>
+        <img src="assets/icons/plus.png" alt="plus" class="sm:h-8 h-6" />
+      </button>
+    </div>
+
+    <div
+      class="shadow sm:pl-4 pl-2 sm:pr-8 pr-4 sm:py-6 py-3 mt-5 flex items-center gap-x-5"
+    >
+      <img
+        src="assets/icons/bluetooth-circle.png"
+        alt="plus"
+        class="sm:h-40 h-32"
+      />
+      <div class="flex gap-y-2 flex-col items-start w-full">
+        <p class="sm:text-md-headline text-sm-headline font-medium">
+          BT01191918898
+        </p>
+        <p class="sm:text-sm-headline text-labels">Connectable</p>
+        <div class="flex items-center gap-x-2 sm:my-2">
+          <img
+            src="assets/icons/bluetooth.png"
+            alt="bluetooth"
+            class="sm:h-8 h-6"
+          />
+          <p class="text-gray-300 sm:text-sm-headline text-labels">Bluetooth</p>
+        </div>
+        <div class="flex items-center justify-between w-full">
+          <button>
+            <img src="assets/icons/bell.png" alt="bell" class="sm:h-8 h-6" />
+          </button>
+          <button routerLink="/connect">
+            <img src="assets/icons/share.png" alt="share" class="sm:h-8 h-6" />
+          </button>
+          <button routerLink="/settings">
+            <img
+              src="assets/icons/settings.png"
+              alt="settings"
+              class="sm:h-8 h-6"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom content -->
+  <div class="mt-auto">
+    <div class="flex items-center justify-between w-full">
+      <button class="flex flex-col items-center justify-center">
+        <img src="assets/icons/phone.png" alt="phone" class="sm:h-8 h-6" />
+        <p class="text-primary-500 sm:text-sm-headline text-labels">Devices</p>
+      </button>
+      <button class="flex flex-col items-center justify-center">
+        <img
+          src="assets/icons/user-account.png"
+          alt="user-account"
+          class="sm:h-8 h-6"
+        />
+        <p class="sm:text-sm-headline text-labels">Member</p>
+      </button>
+      <button class="flex flex-col items-center justify-center">
+        <img src="assets/icons/mail.png" alt="mail" class="sm:h-8 h-6" />
+        <p class="sm:text-sm-headline text-labels">Inbox</p>
+      </button>
+      <button class="flex flex-col items-center justify-center">
+        <img src="assets/icons/user.png" alt="user" class="sm:h-8 h-6" />
+        <p class="sm:text-sm-headline text-labels">Me</p>
+      </button>
+    </div>
+  </div>
+</div>
